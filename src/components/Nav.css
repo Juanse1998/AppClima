@@ -1,0 +1,28 @@
+#logoHenry {
+  margin-right: 20px;
+  width: 7%;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 600px;
+  /*align-self: flex-end;*/
+
+}
+
+.navbar {
+  background-color: #20b1c7;
+  display: flex;
+}
+
+a {
+  display: flex;
+  color:white;
+  margin-right: 2px;
+}
+
+input, button {
+  color:black;
+}
+

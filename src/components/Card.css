@@ -1,0 +1,41 @@
+.card {
+  margin: 20px;
+  width: 18rem;
+  background-color: #75d5e4;
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px #999;
+  border-radius: 7%;
+  
+}
+
+.card-title {
+  margin-bottom: 15px;
+}
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+h5 {
+  color:white;
+}
+
+p {
+  color: white;
+}
+
+btn {
+  color:black;
+}
+
+.btn:hover {
+  color:white;
+}

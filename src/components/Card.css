@@ -1,11 +1,11 @@
 .card {
   margin: 20px;
   width: 18rem;
-  background-color: #75d5e4;
-  border: 1px solid black;
-  box-shadow: 2px 2px 5px #999;
+  background-color: #a6eb3724;
+  border: 4px solid black;
+  box-shadow: 6px 7px 36px #fffdfd;
   border-radius: 7%;
-  
+
 }
 
 .card-title {
@@ -17,6 +17,7 @@
   justify-content: flex-end;
   margin-right: 8px;
   margin-top: 8px;
+  height: 6px;
 }
 
 .card-body {

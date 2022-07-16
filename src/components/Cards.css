@@ -2,6 +2,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
 
+.textMinMax{
+  font-size: 18px;
+  color: black;
+  text-decoration: underline;
+}
 
+.numberIndi {
+  font-size: 20px;
+  color: black;
 }

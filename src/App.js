@@ -42,13 +42,13 @@ function App() {
 
 
   return (
-    <div className="App"> 
-     
+    <div className="App">
         <div>
           <Nav onSearch={onSearch} />
           <Cards cities={cities} onClose={onClose}/>
         </div>
-        
+
+      <h1>The Wather</h1>
     </div>
   );
 }

@@ -2,3 +2,10 @@ body {
   background-image:url(https://static.vecteezy.com/system/resources/previews/007/550/782/non_2x/sunset-beach-silhouette-landscape-evening-background-free-vector.jpg);
   background-size: 100%;
 }
+
+.title{
+  -webkit-text-stroke: 2px black;
+  padding-top: 150px;
+  align-items: center;
+  font-size: 75px;
+}

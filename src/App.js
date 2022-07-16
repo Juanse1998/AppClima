@@ -3,10 +3,6 @@ import Nav from './components/Nav.jsx';
 import Cards from './components/Cards.jsx';
 import React, { useState } from 'react';
 
-
-
-
-
 function App() {
   const [cities, setCities] = useState([]);
   function onSearch(ciudad) { // ciudad = "Londres"
@@ -40,15 +36,13 @@ function App() {
     setCities(cities.filter(c => c.id !== id));
   }
 
-
   return (
     <div className="App">
         <div>
           <Nav onSearch={onSearch} />
           <Cards cities={cities} onClose={onClose}/>
         </div>
-
-      <h1>The Wather</h1>
+      <h1 className="title">The WatherApp</h1>
     </div>
   );
 }
